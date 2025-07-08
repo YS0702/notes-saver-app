@@ -1,12 +1,24 @@
-# React + Vite
+# Notes Saver App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Notes Saver App**! This is a simple yet powerful application that allows users to create, edit, delete, and manage their notes with ease. The app comes with a clean, user-friendly interface and includes the following core features:
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Create Note**: Add new notes quickly and easily with a simple interface.
+- **Delete Note**: Remove any notes that are no longer needed.
+- **Edit Note**: Modify and update existing notes with ease.
+- **Toggle Theme**: Switch between light and dark themes for a personalized user experience.
 
-## Expanding the ESLint configuration
+## Key Highlights
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Multi-component structure**: The app is built using a modular approach, making it scalable and maintainable. Each functionality is encapsulated within its own component, ensuring smooth and efficient operation.
+- **Clean and Modern UI**: The app’s user interface is designed to be intuitive and easy to navigate. Whether you're managing a few notes or hundreds, you'll find the app's layout simple and straightforward.
+
+## Tech Stack
+
+The Notes Saver App is built using modern web technologies and frameworks:
+
+- **Frontend**: React.js
+- **Styling**: CSS (with optional use of libraries like Bootstrap or Material UI for UI components)
+- **State Management**: React Hooks or Context API (if applicable)
+- **Theme Management**: CSS variables or styled-components for theme toggling
